@@ -1,0 +1,19 @@
+.pink-numbers {
+    background-color: rgb(221, 124, 137);
+    font-family:Verdana,"Dejavu Sans", sans-serif;
+}
+
+#blue-id {
+    color:blue;
+    font-size: 36px;
+}
+
+.larger {
+    font-size: 24px;
+}
+
+#green-id {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(88, 158, 129);
+}
