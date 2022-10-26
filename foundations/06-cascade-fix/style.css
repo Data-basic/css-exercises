@@ -2,13 +2,15 @@ body{
   font-family:Arial, Helvetica, sans-serif
 }
 
+/* Paragraph text below here */
+
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
 }
 
-.small-para {
+.para.small-para {
   font-size: 14px;
   font-weight: 800;
 }
@@ -17,11 +19,25 @@ body{
   font-size: 22px;
 }
 
-.confirm {
-  background: green;
-  color: white;
-  font-weight: bold;
-} 
+/* Paragraph text above here */
+
+/* Div text below here */
+
+div.text {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-weight: 100;
+}
+
+.text.child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
+}
+
+/* Div text above here */
+
+/* The below two blocks are for the two buttons */
 
 .button {
   background-color: rgb(255, 255, 255);
@@ -29,14 +45,10 @@ body{
   font-size: 20px;
 }
 
-.child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
-}
+.button.confirm {
+  background: green;
+  color: white;
+  font-weight: bold;
+} 
 
-div.text {
-  color: rgb(0, 0, 0);
-  font-size: 22px;
-  font-weight: 100;
-}
+/* The two preceding blocks are for the two buttons */
